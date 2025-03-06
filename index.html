@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBoard</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<style>
+    .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+</style>
+</head>
+<body class=" poppins-regular bg-[#F4F7FF] " >
+    <section class=" "> 
+        <!-- navbaaaaaaaar -->
+        <div class="flex flex-row justify-between mx-auto max-w-6xl py-4 rounded mt-5 bg-white" >
+            <div class="flex flex-row justify-between pl-6 gap-2">
+                <img class="h-10 " src="assets/logo.png" alt="">
+                <p class="pt-2">Dev<span class="font-bold">Board</span></p>
+            </div>
+            <div class="flex flex-row justify-between items-center gap-4  px-6">
+                <div class="flex flex-row justify-between gap-3 bg-[#F4F7FF] rounded-lg py-1 px-2">
+                    <img class="h-5 pt-1" src="assets/checkbox.png" alt="">
+                    <p class="font-bold">23</p>
+                </div>
+                <img class="h-6" src="assets/theme-btn.png" alt="">
+            </div>
+        </div>
+        <!-- section-2 -->
+         <section class="flex flex-row max-w-6xl  mt-10 ">
+         <section class="flex flex-col  ">
+            <section  class="bg-white m-10 mx-auto w-2/3 py-4 rounded flex flex-row " >
+            <!-- task assign div  -->
+             <div class="bg-[#F4F7FF] flex flex-row p-4 gap-2 w-48 rounded-md mx-4">
+                <div class=" h-7 w-7  rounded-full  bg-white">
+                    <img class="h-4" src="assets/checkbox.png" alt="" srcset="">
+                </div>
+                <div class="flex flex-col">
+                    <p>Task Assigned</p>
+                    <p class="font-bold">05</p>
+                </div>
+             </div>
+             <!-- discover something new today div -->
+              <div class="bg-gradient-to-r from-[#3752FD] to-[#9BA8F8] w-2/4 gap-x-4 p-3 rounded-md flex flex-row">
+                <img class="h-12 ml-6" src="assets/board.png" alt="">
+                <p class="text-white tracking-wide">Discover Something <br>  New  Today!</p>
+              </div>
+              <!-- current time div -->
+              <div class="bg-[#F4F7FF] flex flex-row p-4 gap-2 w-48 rounded-md mx-4">
+                <div class=" h-7 w-7  rounded-full  bg-white">
+                    <img class="h-4" src="assets/calender.png" alt="" srcset="">
+                </div>
+                <div class="flex flex-col">
+                    <p>Wed,</p>
+                    <p class="font-bold">July 28 2025</p>
+                </div>
+             </div>
+            </section>
+             <!-- cards section -->
+             <section class="grid grid-cols-3 mx-auto w-2/3 gap-2 ">
+                <!-- card 1 -->
+                <div class=" bg-[#F4F7FF] ">
+                    <div class="card-body">
+                      <h2 class=" h-6 w-fit  py-1 px-2 rounded-md text-gray-600 bg-white">ShopEase</h2>
+                      <p class="font-semibold">Fix Mobile Button Issue</p>
+                      <div class="rounded-md ">
+                        <p class="text-gray-400 bg-white">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                      </div>
+                      <div class="card-actions justify-end">
+                        <button class="btn bg-[#3752FD]  rounded-md text-white">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 2 -->
+                  <div class="  bg-[#F4F7FF] ">
+                    <div class="card-body">
+                        <h2 class=" h-6 w-fit  py-1 px-2 rounded-md text-gray-600 bg-white">CloudSync</h2>
+                      <p class="font-semibold">Add Dark Mode</p>
+                      <div class="rounded-md">
+                        <p class="text-gray-400 bg-white">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                      </div>
+                      <div class="card-actions justify-end">
+                        <button class="btn bg-[#3752FD]  rounded-md text-white">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 3 -->
+                  <div class=" bg-[#F4F7FF] ">
+                    <div class="card-body">
+                        <h2 class=" h-6 w-fit  py-1 px-2 rounded-md text-gray-600 bg-white">SwiftPay</h2>
+                      <p class="font-semibold">Optimize  Home page</p>
+                      <div class="rounded-md">
+                        <p class="text-gray-400 bg-white">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                      </div>
+                      <div class="card-actions justify-end">
+                        <button class="btn bg-[#3752FD]  rounded-md text-white">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 4 -->
+                  <div class="  bg-[#F4F7FF] ">
+                    <div class="card-body">
+                        <h2 class=" h-6 w-fit  py-1 px-2 rounded-md text-gray-600 bg-white">Meta</h2>
+                      <p class="font-semibold">Add new emoji 🤲</p>
+                      <div class="rounded-md">
+                        <p class="text-gray-400 bg-white">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                      </div>
+                      <div class="card-actions justify-end">
+                        <button class="btn bg-[#3752FD]  rounded-md text-white">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 5 -->
+                  <div class="  bg-[#F4F7FF] ">
+                    <div class="card-body">
+                        <h2 class=" h-6 w-fit  py-1 px-2 rounded-md text-gray-600 bg-white">Google LLC</h2>
+                      <p class="font-semibold">Integrate OpenAI API </p>
+                      <div class="rounded-md">
+                        <p class="text-gray-400 bg-white">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                      </div>
+                      <div class="card-actions justify-end">
+                        <button class="btn bg-[#3752FD]  rounded-md text-white">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- card 6 -->
+                  <div class="  bg-[#F4F7FF] ">
+                    <div class="card-body">
+                        <h2 class=" h-6 w-fit  py-1 px-2 rounded-md text-gray-600 bg-white">|Glassdoar</h2>
+                      <p class="font-semibold">Improve Job searching </p>
+                      <div class="rounded-md">
+                        <p class="text-gray-400 bg-white">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                            and ensure onClick works properly</p>
+                      </div>
+                      <div class="card-actions justify-end">
+                        <button class="btn bg-[#3752FD]  rounded-md text-white">Completed</button>
+                      </div>
+                    </div>
+                  </div>
+             </section>
+
+         </section>
+         <!-- activity log section -->
+         <section class="bg-white mt-10 w-48"> 
+            <div class="mx-auto">
+                <div class="flex flex-row mx-auto ">
+                    <img class="h-4" src="assets/activity.png" alt="">
+                    <p>Activity Log</p>
+                </div>
+                <button class="btn bg-[#3752FD] text-white ">Clear History</button>
+            </div>
+         </section>
+        </section>
+    </section>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
