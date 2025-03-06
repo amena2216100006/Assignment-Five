@@ -33,7 +33,7 @@
             <div class="flex flex-row justify-between items-center gap-4 px-6">
                 <div class="flex flex-row justify-between gap-3 bg-[#F4F7FF] rounded-lg py-1 px-2">
                     <img class="h-5 pt-1" src="assets/checkbox.png" alt="" />
-                    <p class="font-bold">23</p>
+                    <p id="nav-num" class="font-bold">23</p>
                 </div>
                 <img id="theme-change-btn" class="h-6 cursor-pointer" src="assets/theme-btn.png" alt="" />
             </div>
@@ -53,7 +53,7 @@
                             </div>
                             <div class="flex flex-col">
                                 <p>Task Assigned</p>
-                                <p class="font-bold">05</p>
+                                <p id="task-num" class="font-bold">06</p>
                             </div>
                         </div>
                         <!-- discover something new today div -->
@@ -100,7 +100,7 @@
                                     <p class="font-semibold">21 March 2025</p>
                                 </div>
                                 <div class=" justify-end">
-                                    <button class="btn bg-[#3752FD] rounded-md text-white">
+                                    <button id="complete-btn" class="btn bg-[#3752FD] rounded-md text-white">
                                         Completed
                                     </button>
                                 </div>
@@ -264,6 +264,7 @@
     </main>
     <script src="script/script.js"></script>
     <script src="script/themechange.js"></script>
+    <script src="script/completebtn.js"></script>
 </body>
 
 </html>
