@@ -48,7 +48,7 @@
                     <section class="grid grid-cols-4 gap-5 mb-5">
                         <!-- task assign div  -->
                         <div class="bg-[#F4F7FF] flex flex-row p-4 gap-2 rounded-md shadow-md">
-                            <div class="h-7 w-7 rounded-full bg-white">
+                            <div class="h-7 w-7 rounded-full flex justify-center items-center bg-white">
                                 <img class="h-4" src="assets/checkbox.png" alt="" srcset="" />
                             </div>
                             <div class="flex flex-col">
@@ -67,12 +67,12 @@
                         </div>
                         <!-- current time div -->
                         <div class="bg-[#F4F7FF] flex flex-row p-4 gap-2 rounded-md">
-                            <div class="h-7 w-7 rounded-full bg-white">
+                            <div class="h-7 w-7 rounded-full flex justify-center items-center bg-white">
                                 <img class="h-4" src="assets/calender.png" alt="" srcset="" />
                             </div>
                             <div class="flex flex-col">
-                                <p>Wed,</p>
-                                <p class="font-bold">July 28 2025</p>
+                                <p id="currentDay"></p>
+                                <p id="currentDate" class="font-bold">July 28 2025</p>
                             </div>
                         </div>
                     </section>
@@ -100,7 +100,7 @@
                                     <p class="font-semibold">21 March 2025</p>
                                 </div>
                                 <div class=" justify-end">
-                                    <button id="complete-btn" class="btn bg-[#3752FD] rounded-md text-white">
+                                    <button id="complete-btn" class=" completed-btn btn bg-[#3752FD] rounded-md text-white">
                                         Completed
                                     </button>
                                 </div>
@@ -128,7 +128,7 @@
                                     <p class="font-semibold">21 March 2025</p>
                                 </div>
                                 <div class=" justify-end">
-                                    <button id="complete-btn-2" class="btn bg-[#3752FD] rounded-md text-white">
+                                    <button id="complete-btn-2" class=" completed-btn btn bg-[#3752FD] rounded-md text-white">
                                         Completed
                                     </button>
                                 </div>
@@ -156,7 +156,7 @@
                                     <p class="font-semibold">21 March 2025</p>
                                 </div>
                                 <div class=" justify-end">
-                                    <button  id="complete-btn-3" class="btn bg-[#3752FD] rounded-md text-white">
+                                    <button  id="complete-btn-3" class=" completed-btn btn bg-[#3752FD] rounded-md text-white">
                                         Completed
                                     </button>
                                 </div>
@@ -184,7 +184,7 @@
                                     <p class="font-semibold">21 March 2025</p>
                                 </div>
                                 <div class=" justify-end">
-                                    <button  id="complete-btn-4" class="btn bg-[#3752FD] rounded-md text-white">
+                                    <button  id="complete-btn-4" class=" completed-btn btn bg-[#3752FD] rounded-md text-white">
                                         Completed
                                     </button>
                                 </div>
@@ -212,7 +212,7 @@
                                     <p class="font-semibold">21 March 2025</p>
                                 </div>
                                 <div class=" justify-end">
-                                    <button  id="complete-btn-5" class="btn bg-[#3752FD] rounded-md text-white">
+                                    <button  id="complete-btn-5" class=" completed-btn btn bg-[#3752FD] rounded-md text-white">
                                         Completed
                                     </button>
                                 </div>
@@ -240,7 +240,7 @@
                                     <p class="font-semibold">21 March 2025</p>
                                 </div>
                                 <div class=" justify-end">
-                                    <button id="complete-btn-6" class="btn bg-[#3752FD] rounded-md text-white">
+                                    <button id="complete-btn-6" class=" completed-btn btn bg-[#3752FD] rounded-md text-white">
                                         Completed
                                     </button>
                                 </div>
@@ -254,10 +254,10 @@
                         <img class="h-4" src="assets/activity.png" alt="" />
                         <p>Activity Log</p>
                     </div>
-                    <button class="btn bg-[#3752FD] text-white">Clear History</button>
+                    <button id="clear-btn" class="btn bg-[#3752FD] text-white">Clear History</button>
                     <hr class=" border-t-2 border-dashed border-gray-300 my-5">
                     <div id="history-div">
-
+                        
                     </div>
                 </section>
             </section>
